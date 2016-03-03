@@ -1,0 +1,9 @@
+.sass-cache/
+.powrc
+.rvmrc
+.rspec
+zeus.json
+.DS_Store
+custom_plan.rb
+.ruby-version
+.ruby-gemset
