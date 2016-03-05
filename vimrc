@@ -1,4 +1,5 @@
 " vim:fdm=marker
+" runtime macros/matchit.vim
 
 set nocompatible
 set encoding=utf-8
@@ -12,10 +13,15 @@ Plug 'valloric/youcompleteme', { 'do': './install.py' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'chun-yang/vim-ag-anything'
 Plug 'rking/ag.vim'
+Plug 'skwp/greplace.vim'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
 
 call plug#end()
 " }}}
 
+syntax on
 
 " Options {{{
 set autoindent
@@ -91,6 +97,12 @@ let g:ag_mapping_message = 0
 let g:ag_highlight = 0
 " }}}
 
+" Greplace {{{
+set grepprg=ag
+let g:grep_cmd_opts = '--line-numbers --noheading'
+" }}}
+
 map <f4> :set wrap! linebreak! list!<cr>
 map <Leader>i mmgg=G`m<cr>
 map <Leader>p :set paste<cr>o<esc>"*]p:set nopaste<cr>
+map <Leader>r :source $MYVIMRC<cr>
