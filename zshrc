@@ -5,7 +5,23 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+
+# disable showing user at the begining of prompt
+export DEFAULT_USER="sebek"
+
+POWERLINE_PATH="short"
+POWERLINE_NO_BLANK_LINE="true"
+
+POWERLINE_DATE_FORMAT="%D{%d-%m}"
+
+POWERLINE_HIDE_USER_NAME="true"
+POWERLINE_HIDE_HOST_NAME="true"
+
+POWERLINE_RIGHT_A="exit-status-on-fail"
+# theme with powerline support
+# ZSH_THEME="agnoster"
+ZSH_THEME="powerline"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
