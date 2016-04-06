@@ -10,7 +10,6 @@ grb(){
   git rebase --interactive HEAD~$1
 }
 
-
 gprune() {
   git fetch -p
   git branch --merged master | grep -v 'master$' | xargs git branch -d
