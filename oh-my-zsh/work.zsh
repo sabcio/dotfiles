@@ -38,7 +38,7 @@ ccc(){
   fi
 }
 
-export EDITOR="subl"
+export EDITOR="subl -w"
 
 pogoda(){
   if [[ -z "$1" ]]; then
