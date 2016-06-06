@@ -22,6 +22,7 @@ alias subl="reattach-to-user-namespace subl"
 
 alias wccp="ssh winnie@cc3.winniecloud.net"
 
+alias l="ls -lAh --group-directories-first"
 ccp(){
   if [[ -z "$1" ]]; then
     echo "=> Tell me which server to connect to!"
