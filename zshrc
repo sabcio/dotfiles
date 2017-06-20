@@ -30,6 +30,8 @@ ZSH_THEME="powerline"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
+DISABLE_UPDATE_PROMPT=true
+
 # Uncomment this to disable bi-weekly auto-update checks
 # DISABLE_AUTO_UPDATE="true"
 
