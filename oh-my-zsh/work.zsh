@@ -18,7 +18,7 @@ alias b="bundle"
 alias be="bundle exec"
 alias rsp="bundle exec rspec"
 
-alias subl="reattach-to-user-namespace subl"
+# alias subl="reattach-to-user-namespace subl"
 
 alias wccp="ssh winnie@cc3.winniecloud.net"
 
