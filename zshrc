@@ -63,7 +63,7 @@ DISABLE_UPDATE_PROMPT=true
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(work knife)
+plugins=(work)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,6 +84,8 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-export PATH=~/Dropbox/Mackup/bin:$PATH
 # GNU tools FTW - without 'g' prefix
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
+export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
+
+eval "$(rbenv init -)"

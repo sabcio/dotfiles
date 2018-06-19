@@ -7,3 +7,9 @@ zeus.json
 custom_plan.rb
 .ruby-version
 .ruby-gemset
+
+
+env.production
+env.staging
+
+*.dump
