@@ -2,14 +2,10 @@ alias r="bundle exec rails"
 alias b="bundle"
 alias be="bundle exec"
 alias rsp="bundle exec rspec"
-alias rspc="JS_DRIVER=chrome bundle exec rspec"
 
-# alias subl="reattach-to-user-namespace subl"
+alias l="ls -lAhG"
 
-export LS_COPTIONS='--color=auto'
-alias l="ls $LS_COPTIONS -lAh --group-directories-first"
-
-export EDITOR="subl -w"
+export EDITOR="atom"
 
 pogoda(){
   if [[ -z "$1" ]]; then

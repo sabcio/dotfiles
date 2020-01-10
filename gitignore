@@ -7,9 +7,11 @@ zeus.json
 custom_plan.rb
 .ruby-version
 .ruby-gemset
-
+.foreman
+.overcommit.yml
 
 env.production
 env.staging
 
 *.dump
+.vscode/
